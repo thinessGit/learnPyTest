@@ -1,0 +1,25 @@
+============================= test session starts =============================
+platform win32 -- Python 3.9.4, pytest-6.2.4, py-1.10.0, pluggy-0.13.1 -- c:\users\tb\appdata\local\programs\python\python39\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\tb\OneDrive\Documents\Code\learnPyTest
+collecting ... collected 6 items
+
+test/test_Demo.py::test_evenNo PASSED                                    [ 16%]
+test/test_Demo.py::test_ture PASSED                                      [ 33%]
+test/test_Demo.py::test_false FAILED                                     [ 50%]
+test/test_WebOne.py::test_loginQuora PASSED                              [ 66%]
+test/test_WebTree.py::test_loginGitHub PASSED                            [ 83%]
+test/test_WebTwo.py::test_loginLinkedin PASSED                           [100%]
+
+================================== FAILURES ===================================
+_________________________________ test_false __________________________________
+
+    def test_false():
+>       assert False, " Testcase failed "
+E       AssertionError:  Testcase failed 
+E       assert False
+
+test\test_Demo.py:11: AssertionError
+=========================== short test summary info ===========================
+FAILED test/test_Demo.py::test_false - AssertionError:  Testcase failed 
+========================= 1 failed, 5 passed in 0.08s =========================
