@@ -9,7 +9,7 @@
 <br/>
 <br/>
 
-### pytest assert syntax
+# Pytest Assert Syntax
 **assert <condition_for_verification>, "message on failure to displayed "**
 * **Ex1 :** assert 404==404 #is a successful assertion
   * Assertion is passed 
@@ -21,6 +21,7 @@
   * Assertion is failed and message failure is displayed
 <br/>
 <br/>
+
 >**Note** :<br/> 
 Sample pytest code -> https://github.com/thinessGit/learnPyTest/blob/main/test/test_Demo.py<br/>
 

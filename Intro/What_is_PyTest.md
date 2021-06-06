@@ -17,19 +17,6 @@
 * Pytest assertions are checks that return either True or False status
 <br/>
 <br/>
-
-# Pytest Assert Syntax
-**assert <condition_for_verification>, "message on failure to displayed "**
-* **Ex1 :** assert 404==404 #is a successful assertion
-  * Assertion is passed 
-* **Ex2 :** assert 404==404, "Number validation mismatch" #assertion with message on failure
-  * Assertion is passed and no message failure is displayed
-* **Ex3 :** assert 404==405 #is a failed assertion
-  * Assertion is failed and no message failure is displayed
-* **Ex5 :** assert 404==405, "Number validation mismatch" #is a failed assertion
-  * Assertion is failed and message failure is displayed
-<br/>
-<br/>
     
 * ### Python 2:
     * **pip install pytest**
@@ -45,7 +32,7 @@
 
 >**Note** :<br/> 
 Sample pytest code -> https://github.com/thinessGit/learnPyTest/blob/main/test/test_Demo.py<br/>
-Rules to write PyTest Test Methods/Testcase - > https://github.com/thinessGit/learnPyTest/blob/main/test/test_Demo.py<br/>
+Rules to write PyTest Test Methods/Testcase - > https://github.com/thinessGit/learnPyTest/blob/main/Intro/How_to_write_pytest_testcase.md<br/>
 
 <br/>
 <br/>
