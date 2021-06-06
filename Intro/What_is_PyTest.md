@@ -21,7 +21,7 @@
 
 ### How to create Package
 * Create a new folder <folder_name>
-* Create an empty ____init____.py file in the <folder_name> folder
+* Create an empty \_\_init\_\_.py file in the <folder_name> folder
 
 
 ### Reference URL :-  
