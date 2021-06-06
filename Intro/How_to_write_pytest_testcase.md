@@ -11,13 +11,13 @@
 
 # Pytest Assert Syntax
 **assert <condition_for_verification>, "message on failure to displayed "**
-* **Ex1 :** assert 404==404 #is a successful assertion
+* Ex1 : **assert 404==404** #is a successful assertion
   * Assertion is passed 
-* **Ex2 :** assert 404==404, "Number validation mismatch" #assertion with message on failure
+* Ex2 :**assert 404==404, "Number validation mismatch"** #assertion with message on failure
   * Assertion is passed and no message failure is displayed
-* **Ex3 :** assert 404==405 #is a failed assertion
+* Ex3 : **assert 404==405** #is a failed assertion
   * Assertion is failed and no message failure is displayed
-* **Ex5 :** assert 404==405, "Number validation mismatch" #is a failed assertion
+* Ex5 : **assert 404==405, "Number validation mismatch"** #is a failed assertion
   * Assertion is failed and message failure is displayed
 <br/>
 <br/>
