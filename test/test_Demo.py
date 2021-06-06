@@ -7,5 +7,6 @@ def test_evenNo():
 def test_ture():
     assert True
 
+@pytest.mark.xfail
 def test_false():
     assert False, " Testcase failed "
