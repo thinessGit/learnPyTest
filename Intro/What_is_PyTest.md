@@ -30,15 +30,13 @@
   * Assertion is failed and message failure is displayed
 <br/>
 <br/>
+    
 * ### Python 2:
     * **pip install pytest**
-  
 * ### Python 3:
     * **pip3 install pytest**
-
 * ### Check installed version
     * **pytest --version**
-
 * ### Install pytest by version
     * **pip install pytest==<version>**
     * **Ex :** pip install pytest==6.2.3
