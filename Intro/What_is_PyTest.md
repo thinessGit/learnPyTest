@@ -18,7 +18,7 @@
 <br/>
 <br/>
 
-### pytest assert syntax
+# Pytest Assert Syntax
 **assert <condition_for_verification>, "message on failure to displayed "**
 * **Ex1 :** assert 404==404 #is a successful assertion
   * Assertion is passed 
@@ -30,13 +30,16 @@
   * Assertion is failed and message failure is displayed
 <br/>
 <br/>
+* ### Python 2:
+    * **pip install pytest**
+  
 * ### Python 3:
     * **pip3 install pytest**
 
 * ### Check installed version
     * **pytest --version**
 
-* ## Install pytest by version
+* ### Install pytest by version
     * **pip install pytest==<version>**
     * **Ex :** pip install pytest==6.2.3
 <br/>
