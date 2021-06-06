@@ -42,7 +42,8 @@
     * **Ex :** pip install pytest==6.2.3
 <br/>
 <br/>
-> **Note** :<br/> 
+
+>**Note** :<br/> 
 Sample pytest code -> https://github.com/thinessGit/learnPyTest/blob/main/test/test_Demo.py<br/>
 Rules to write PyTest Test Methods/Testcase - > https://github.com/thinessGit/learnPyTest/blob/main/test/test_Demo.py<br/>
 
